@@ -2217,9 +2217,9 @@ progress {
 .form-control:focus {
   color: #212529;
   background-color: #fff;
-  border-color: #fab19d;
+  border-color: #04C1C4;
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(244, 98, 58, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(4, 193, 196, 0.25);
 }
 .form-control::-webkit-date-and-time-value {
   height: 1.5em;
@@ -3034,6 +3034,7 @@ textarea.form-control-lg {
   color: #fff;
   background-color: #021b6e;
   border-color: #021b6e;
+  width: 200px;
 }
 .btn-primary:hover {
   color: #fff;
@@ -3042,9 +3043,9 @@ textarea.form-control-lg {
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
-  background-color: #cf5331;
-  border-color: #021b6e;
-  box-shadow: 0 0 0 0.25rem rgba(246, 122, 88, 0.5);
+  background-color: #04C1C4;
+  border-color: #04C1C4;
+  box-shadow: 0 0 0 0.25rem rgba(4, 193, 196, 0.5);
 }
 .btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
