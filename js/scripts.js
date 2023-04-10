@@ -56,4 +56,8 @@ window.addEventListener('DOMContentLoaded', event => {
         elements: '#portfolio a.portfolio-box'
     });
 
+    new SimpleLightbox({
+        elements: '#work a.work-box'
+    });
+
 });
