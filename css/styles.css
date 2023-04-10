@@ -11457,3 +11457,41 @@ header.masthead h1, header.masthead .h1 {
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
+
+
+
+#work .container-fluid, #work .container-sm, #work .container-md, #work .container-lg, #work .container-xl, #work .container-xxl {
+  max-width: 1920px;
+}
+#work .container-fluid .work-box, #work .container-sm .work-box, #work .container-md .work-box, #work .container-lg .work-box, #work .container-xl .work-box, #work .container-xxl .work-box {
+  position: relative;
+  display: block;
+}
+#work .container-fluid .work-box .work-box-caption, #work .container-sm .work-box .work-box-caption, #work .container-md .work-box .work-box-caption, #work .container-lg .work-box .work-box-caption, #work .container-xl .work-box .work-box-caption, #work .container-xxl .work-box .work-box-caption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  opacity: 0;
+  color: #fff;
+  background: rgba(29, 48, 81, 0.7);
+  transition: opacity 0.25s ease;
+  text-align: center;
+}
+#work .container-fluid .work-box .work-box-caption .project-category, #work .container-sm .work-box .work-box-caption .project-category, #work .container-md .work-box .work-box-caption .project-category, #work .container-lg .work-box .work-box-caption .project-category, #work .container-xl .work-box .work-box-caption .project-category, #work .container-xxl .work-box .work-box-caption .project-category {
+  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+#work .container-fluid .work-box .work-box-caption .project-name, #work .container-sm .work-box .work-box-caption .project-name, #work .container-md .work-box .work-box-caption .project-name, #work .container-lg .work-box .work-box-caption .project-name, #work .container-xl .work-box .work-box-caption .project-name, #work .container-xxl .work-box .work-box-caption .project-name {
+  font-size: 1.2rem;
+}
+#work .container-fluid .work-box:hover .work-box-caption, #work .container-sm .work-box:hover .work-box-caption, #work .container-md .work-box:hover .work-box-caption, #work .container-lg .work-box:hover .work-box-caption, #work .container-xl .work-box:hover .work-box-caption, #work .container-xxl .work-box:hover .work-box-caption {
+  opacity: 1;
+}
